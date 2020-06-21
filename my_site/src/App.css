@@ -50,17 +50,29 @@
 .footer-gray {
   background-color: #9ea3a8;
   width: 100vw;
-  height: 15vh;
+  height: fit-content;
   bottom: 0;
   margin: 0px;
   position: absolute;
-  display: flex;
-  flex-wrap: nowrap;
 }
 
 .footer-button-cont {
   width: 100vw;
   height: 10vh;
+}
+
+.footer-link-cont {
+  width: 100vw;
+  height: 10vh;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social_logo {
+  width: 5vw;
+  height: 5vh;
 }
 
 .btn-link {
